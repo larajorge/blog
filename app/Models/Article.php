@@ -9,5 +9,5 @@ class Article extends Model
 {
     use HasFactory;
 
-    protected $filllable = ['title', 'body'];
+    protected $fillable = ['title', 'body'];
 }
